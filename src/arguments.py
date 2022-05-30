@@ -36,7 +36,7 @@ def is_empty(args: argparse.Namespace) -> bool:
     return not any(vars(args).values())
 
 def parse() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(prog="pySearchClipIt")
+    parser = argparse.ArgumentParser(prog="pyClipNSearchIt")
 
     parser.add_argument("-i", "--input", dest="input", help="Directory/File path", type=_is_valid_input)
     parser.add_argument("-o", "--output", dest="output", help="Destination file path", type=_is_valid_output)

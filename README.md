@@ -1,4 +1,4 @@
-# pySearchClipIt
+# pyClipNSearchIt
 TODO
 
 ## Requirements

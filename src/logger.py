@@ -34,7 +34,7 @@ class _Formatter(logging.Formatter):
 
 def _init_logger():
     logging.setLogRecordFactory(_Record)
-    logger = logging.getLogger("pySearchClipIt")
+    logger = logging.getLogger("pyClipNSearchIt")
     logger.setLevel(logging.INFO)
 
     ch = logging.StreamHandler()
